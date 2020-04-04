@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/hari', 'HariController@index');
  
-Route::get('/belajar', function () {
-    return 'tado';
-});
+// Route::get('/belajar', function () {
+//     return 'tado';
+// });
  
